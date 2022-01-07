@@ -1,0 +1,59 @@
+.header {
+    position: relative;
+    top: 2rem;
+
+
+}
+
+.header-hr-line {
+    width: 30rem;
+    position: absolute;
+    left: 11.4rem;
+    border-bottom: none;
+    border-width: 1px;
+    border-color: #979797;
+    bottom: 1.4rem
+}
+
+.header img {
+    margin-left: 80px;
+    margin-top: 12px;
+
+}
+
+.header-link-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: linear-gradient(to right, rgba(25, 25, 34, 0.6), rgba(15, 15, 17, 0.7));
+    padding: 1.5rem 7rem;
+}
+
+
+.header-link {
+    margin-right: 2.7rem;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-family: 'Barlow Condensed',
+        sans-serif;
+    font-size: small;
+    text-underline-offset: 1.5rem;
+}
+
+
+
+/* .header-link-hr-line {
+    width: 3rem;
+    position: absolute;
+    right: 30rem;
+    top: 3.3rem;
+} */
+
+.header-link-numbers {
+    margin-right: 0.2rem;
+}
+
+.body-content {
+    position: relative;
+    background-color: red;
+}
