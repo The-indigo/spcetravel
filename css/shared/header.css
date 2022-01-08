@@ -6,9 +6,9 @@
 }
 
 .header-hr-line {
-    width: 30rem;
+    width: 23rem;
     position: absolute;
-    left: 11.4rem;
+    left: 11rem;
     border-bottom: none;
     border-width: 1px;
     border-color: #979797;
@@ -55,5 +55,5 @@
 
 .body-content {
     position: relative;
-    background-color: red;
+    /* background-color: red; */
 }

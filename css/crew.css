@@ -4,17 +4,100 @@ body {
     margin: 0;
 }
 
-.crew-left-container {
-    border: 2px solid yellow;
-    width: 30%;
+.job-role {
+    font-family: 'Bellefair',
+        serif;
+    color: gray;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    margin-top: 7rem;
+}
+
+.crew-left-content {
+    width: 26.7%;
     position: absolute;
-    left: 9rem;
+    left: 11.5rem;
     top: 4rem;
 }
 
-.crew-right-container {
-    border: 2px solid blue;
-    width: 40%;
+.crew-left-content h3 {
+    font-family: 'Bellefair',
+        serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-top: 9px;
+    letter-spacing: 3px;
+    width: 130%;
+}
+
+.crew-left-content h6 {
+    font-family: 'Barlow Condensed',
+        sans-serif;
+    letter-spacing: 4px;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-right: 70px;
+}
+
+.crew-left-content hr {
+    border-width: 8px;
+    border-style: dotted;
+    border-bottom: none;
+    width: 2.3rem;
+
+}
+
+.crew-left-content-p {
+    color: #D0D6F9;
+    font-family: 'Barlow',
+        sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.crew-left-content span {
+    margin-right: 3px;
+    letter-spacing: 2px;
+    color: grey;
+    font-weight: bold;
+}
+
+.crew-right-content {
+    width: 33rem;
+    height: 33rem;
     position: absolute;
-    right: 10px;
+    right: 3rem;
+    top: 7.4rem;
+}
+
+.crew-right-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.dot-container {
+    margin-top: 5.4rem;
+    margin-left: 0.6rem;
+}
+
+.dot-container a {
+    margin-right: 1rem;
+}
+
+.dot {
+    cursor: pointer;
+    height: 9px;
+    width: 9px;
+    background-color: #979797;
+    opacity: 0.6;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    text-decoration: none;
+}
+
+.active,
+.dot:hover {
+    background-color: yellow;
 }

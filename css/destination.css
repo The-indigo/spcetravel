@@ -9,7 +9,7 @@ body {
     width: 40%;
     position: absolute;
     top: 3rem;
-    left: 6rem;
+    left: 6.7rem;
     text-align: center;
 }
 
@@ -25,12 +25,12 @@ body {
         sans-serif;
     letter-spacing: 4px;
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     margin-right: 70px;
 }
 
 .middle-left-content span {
-    margin-right: 3px;
+    margin-right: 5px;
     letter-spacing: 2px;
     color: grey;
 }
