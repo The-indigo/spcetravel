@@ -3,3 +3,118 @@ body {
     color: #FFFFFF;
     margin: 0;
 }
+
+.tech {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.technology-left-content-bottom {
+    /* border: 1px solid brown; */
+    /* text-align: center; */
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.technology-left-content {
+    /* border: 1px solid blue; */
+    width: 57%;
+    position: absolute;
+    top: 3rem;
+    left: 8rem;
+    padding-left: 1rem;
+
+}
+
+.technology-left-content-definition {
+    font-family: 'Barlow',
+        sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.technology-left-content h6 {
+    font-family: 'Barlow Condensed',
+        sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-left: 1.9rem;
+
+}
+
+.technology-left-content-03 {
+    color: grey;
+    margin-right: 10px;
+}
+
+.technology-left-content-numbers {
+    /* border: 1px solid pink; */
+    margin-top: 1.4rem;
+}
+
+
+
+.technology-left-content-numbers a {
+    /* display: block; */
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-bottom: 2rem;
+    border-bottom: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Bellefair',
+        serif;
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.technology-left-content-numbers a:hover {
+    border: 1px solid #FFFFFF;
+}
+
+.technology-left-content-terminology {
+    /* border: 1px solid green; */
+    width: 64%;
+    margin-left: 3rem;
+}
+
+.technology-left-content-terminology h1 {
+    font-family: 'Bellefair',
+        serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-size: 2.5em;
+}
+
+.technology-left-content-terminology p {
+    color: #D0D6F9;
+}
+
+.technology-right-content {
+    /* border: 1px solid yellow; */
+    width: 33%;
+    position: absolute;
+    right: 0;
+    top: 9rem;
+}
+
+.technology-right-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.terminology {
+    font-family: 'Barlow Condensed',
+        sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+}
