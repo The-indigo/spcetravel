@@ -1,6 +1,8 @@
 body {
     background-image: url("../assets/home/background-home-desktop.jpg");
     color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
 }
 

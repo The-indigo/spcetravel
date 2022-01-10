@@ -1,8 +1,6 @@
 .header {
     position: relative;
     top: 2rem;
-
-
 }
 
 .header-hr-line {
@@ -25,7 +23,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    background: linear-gradient(to right, rgba(25, 25, 34, 0.6), rgba(15, 15, 17, 0.7));
+    background: linear-gradient(to right, rgba(21, 21, 54, 0.432), rgba(34, 34, 83, 0.432));
     padding: 1.5rem 7rem;
 }
 

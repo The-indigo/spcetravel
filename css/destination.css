@@ -2,6 +2,8 @@ body {
     background-image: url("../assets/destination/background-destination-desktop.jpg");
     color: #FFFFFF;
     margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .middle-left-content {
